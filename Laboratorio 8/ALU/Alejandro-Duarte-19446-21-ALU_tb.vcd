@@ -1,0 +1,106 @@
+$date
+	Sat Oct 24 18:36:17 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 4 ! respuesta [3:0] $end
+$var reg 3 " comando [2:0] $end
+$var reg 4 # variable1 [3:0] $end
+$var reg 4 $ variable2 [3:0] $end
+$scope module c $end
+$var wire 3 % comando [2:0] $end
+$var wire 4 & variable1 [3:0] $end
+$var wire 4 ' variable2 [3:0] $end
+$var reg 4 ( respuesta [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#1
+b0 !
+b0 (
+b1100 $
+b1100 '
+b10 #
+b10 &
+b0 "
+b0 %
+#2
+b1011 !
+b1011 (
+b1010 $
+b1010 '
+b11 #
+b11 &
+b1 "
+b1 %
+#3
+b110 !
+b110 (
+b0 $
+b0 '
+b110 #
+b110 &
+b10 "
+b10 %
+#4
+b0 !
+b0 (
+b1000 $
+b1000 '
+b101 #
+b101 &
+b11 "
+b11 %
+#5
+b1 !
+b1 (
+b110 $
+b110 '
+b1 #
+b1 &
+b100 "
+b100 %
+#6
+b1110 !
+b1110 (
+b111 $
+b111 '
+b1110 #
+b1110 &
+b101 "
+b101 %
+#7
+b11 !
+b11 (
+b1100 $
+b1100 '
+b1111 #
+b1111 &
+b110 "
+b110 %
+#8
+b0 !
+b0 (
+b0 $
+b0 '
+b1 #
+b1 &
+b111 "
+b111 %
+#10
