@@ -1,0 +1,62 @@
+[*]
+[*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
+[*] Sat Nov 21 23:00:56 2020
+[*]
+[dumpfile] "C:\Users\duart\OneDrive\Documentos\GitHub\DIGITAL\Proyecto final\uP_tb.vcd"
+[dumpfile_mtime] "Sat Nov 21 22:58:59 2020"
+[dumpfile_size] 42424
+[savefile] "C:\Users\duart\OneDrive\Documentos\GitHub\DIGITAL\Proyecto final\uP_tb.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-1.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.uPmodule.
+[sst_width] 197
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+testbench.clock
+testbench.reset
+testbench.phase
+@22
+[color] 3
+testbench.PC[11:0]
+@c00022
+testbench.program_byte[7:0]
+@28
+(0)testbench.program_byte[7:0]
+(1)testbench.program_byte[7:0]
+(2)testbench.program_byte[7:0]
+(3)testbench.program_byte[7:0]
+(4)testbench.program_byte[7:0]
+(5)testbench.program_byte[7:0]
+(6)testbench.program_byte[7:0]
+(7)testbench.program_byte[7:0]
+@1401200
+-group_end
+@22
+[color] 7
+testbench.instr[3:0]
+[color] 7
+testbench.oprnd[3:0]
+@28
+[color] 2
+testbench.c_flag
+[color] 2
+testbench.z_flag
+@22
+testbench.data_bus[3:0]
+[color] 7
+testbench.accu[3:0]
+testbench.FF_out[3:0]
+testbench.pushbuttons[3:0]
+[color] 3
+testbench.address_RAM[11:0]
+@420
+testbench.jumpDelay
+@421
+testbench.memoryDelay
+[pattern_trace] 1
+[pattern_trace] 0
