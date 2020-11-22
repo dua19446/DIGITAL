@@ -1,16 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.3.77 (w)1999-2016 BSI
-[*] Sat Nov 21 23:00:56 2020
+[*] Sun Nov 22 17:23:24 2020
 [*]
 [dumpfile] "C:\Users\duart\OneDrive\Documentos\GitHub\DIGITAL\Proyecto final\uP_tb.vcd"
-[dumpfile_mtime] "Sat Nov 21 22:58:59 2020"
+[dumpfile_mtime] "Sun Nov 22 17:13:37 2020"
 [dumpfile_size] 42424
 [savefile] "C:\Users\duart\OneDrive\Documentos\GitHub\DIGITAL\Proyecto final\uP_tb.gtkw"
 [timestart] 0
 [size] 1000 600
-[pos] -1 -1
-*-1.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
-[treeopen] testbench.
+[pos] 313 32
+*-5.000000 35 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] testbench.uPmodule.
 [sst_width] 197
 [signals_width] 166
@@ -56,7 +55,8 @@ testbench.pushbuttons[3:0]
 testbench.address_RAM[11:0]
 @420
 testbench.jumpDelay
-@421
 testbench.memoryDelay
+@421
+testbench.nota
 [pattern_trace] 1
 [pattern_trace] 0

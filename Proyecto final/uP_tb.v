@@ -401,5 +401,110 @@ module testbench();
         $display("@@@800000000000008@@@@@@@@@@@@@@@@@@@@@@880GCLft11ii;;::,,,.....           ...,::i1fG8@@@@@@@@@@@@@@");
         end
     end
-
 endmodule
+
+/*module testb();
+
+reg clk,reset,En,load;
+reg [11:0]load2;
+wire [11:0]q;
+
+contador a(clk,reset,En,load,load2,q);
+
+always
+  #1 clk = ~clk;
+
+initial begin
+  #1
+  $display(" reset En load load2 | q");
+  $display("-------------------------------------");
+  $monitor("   %b  %b  %b   %b   | %b", reset,En,load,load2, q);
+    clk = 0; reset = 0; En = 0; load = 0; load2 = 12'b000000000000;
+    #2 reset = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1;
+    #2 reset = 0; En = 1; load = 1; load2 = 12'b000000010010;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 0; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 0; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 0; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 0; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 0; load = 0; load2 = 12'b000000000000;
+    #2 reset = 1; En = 0; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 0; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 1; load2 = 12'b000000001100;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 1; load = 0; load2 = 12'b000000000000;
+    #2 reset = 0; En = 0; load = 0; load2 = 12'b000000000000;
+
+end
+
+initial
+  #100 $finish;
+
+initial begin
+  $dumpfile("Alejandro-Duarte-19446-seccion21-contador_tb.vcd");
+  $dumpvars(0, testbench);
+end
+endmodule*/
+
+/*module tb();
+
+reg [11:0]localidad;
+wire [7:0]respuesta;
+
+memoriaROM b(localidad,respuesta);
+
+initial begin
+  #1
+  $display("   Localidad   | Respuesta");
+  $display("--------------------------");
+  $monitor("   %b | %b", localidad, respuesta);
+    localidad = 12'b000000000000;
+  #1localidad = 12'b000000000001;
+  #1localidad = 12'b000000000010;
+  #1localidad = 12'b000000000011;
+  #1localidad = 12'b000000000100;
+  #1localidad = 12'b000000000101;
+  #1localidad = 12'b000000000110;
+  #1localidad = 12'b000000000111;
+  #1localidad = 12'b000000001000;
+  #1localidad = 12'b000000001001;
+
+end
+
+initial
+  #11 $finish;
+
+initial begin
+  $dumpfile("Alejandro-Duarte-19446-21-memoria_tb.vcd");
+  $dumpvars(0, testbench);
+end
+
+
+endmodule*/
